@@ -5,6 +5,7 @@ from minesweeper import HIDDEN, REVEALED, FLAGGED
 #   revealed '1'  = 0x03 (alpha yellow) + '1'
 # Everything else below this line is a placeholder guess and should be
 # checked against the real MINEFINDER generator / a live receiver.
+# Well all the guesses were right.
 CELL_HIDDEN = bytes([0x12]) + b"/"
 CELL_FLAGGED = bytes([0x03]) + b"F"
 CELL_MINE = bytes([0x01]) + b"*"
