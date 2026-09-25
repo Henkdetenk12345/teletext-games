@@ -1,0 +1,22 @@
+{
+    "vbit2": {
+        "host": "192.168.1.193",
+        "port": 19775
+    },
+    "page_pool": {
+        "magazine": 7,
+        "subpage_start": 0,
+        "subpage_end": 19
+    },
+    "session_timeout_seconds": 300,
+    "api": {
+        "host": "0.0.0.0",
+        "port": 8010,
+        "cors_origins": ["*"]
+    },
+    "minesweeper": {
+        "width": 13,
+        "height": 13,
+        "mines": 16
+    }
+}
